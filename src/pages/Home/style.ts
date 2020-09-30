@@ -25,17 +25,17 @@ export const Button = styled.button`
   height: 37.5px;
   /* margin-top: 438px; */
 
-  border: 2px solid var(--color-header);
+  border: 2px solid var(--color-button);
   box-sizing: border-box;
   border-radius: 74px;
   outline: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: none;
-  color: var(--color-header);
+  color: var(--color-button);
 
   &:hover {
-    background-color: var(--color-header);
+    background-color: var(--color-button);
     color: #fff;
     cursor: pointer;
     transition: 1s;
