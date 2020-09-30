@@ -5,7 +5,7 @@ import { Container } from "./styles";
 const HeaderHome: React.FC = () => {
   return (
     <Container>
-      <h1>HeaderHomeToTheFace</h1>
+      <h1>HeaderHomeNotToTheFace</h1>
     </Container>
   );
 };
