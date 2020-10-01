@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Container, Wrapper } from "./styles";
 
@@ -8,10 +9,10 @@ const HeaderHome: React.FC = () => {
       <Wrapper>
         <div className="right">
           <nav>
-            <a href="#">Login</a>
+            <Link to="/login">Login</Link>
           </nav>
           <nav>
-            <a href="#">Cadastro</a>
+            <Link to="/register">Cadastro</Link>
           </nav>
         </div>
       </Wrapper>
