@@ -1,11 +1,16 @@
-import React from 'react';
-
-import { Container } from './styles';
+import React from "react";
+import HeaderHome from "../../components/HeaderHome";
+import LogoLogin from "../../assets/LogoLogin.svg";
+import { Container, Content, ImageLogin } from "./styles";
 
 const Login: React.FC = () => {
   return (
     <Container>
-      <h1>Login</h1>
+      <HeaderHome />
+
+      <Content>
+        <ImageLogin src={LogoLogin} />
+      </Content>
     </Container>
   );
 };
