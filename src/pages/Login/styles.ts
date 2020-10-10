@@ -23,5 +23,5 @@ export const Content = styled.div`
 export const ImageLogin = styled.img`
   margin-top: 10px;
   width: 69px;
-  height: 67px;
+  height: 69px;
 `;

@@ -9,7 +9,7 @@ const Home = () => {
       <HeaderHome />
       <Content>
         <ImageLogo src={imgLogo} />
-        <Button>Crie seu convite</Button>
+        <Button>Crie seu convite Agora</Button>
       </Content>
     </Container>
   );
