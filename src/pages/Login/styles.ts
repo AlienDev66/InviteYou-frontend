@@ -18,10 +18,22 @@ export const Content = styled.div`
   background: var(--color-login);
   border-radius: 10px;
   box-shadow: 10px;
+  align-itens: center;
 `;
 
 export const ImageLogin = styled.img`
+display:flex;
   margin-top: 10px;
   width: 69px;
   height: 69px;
+  margin-left:10em;
+  
 `;
+export const DivInp = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: em;
+margin-right: 100px;
+`;
+
